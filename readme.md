@@ -19,12 +19,16 @@ A simple, yet aesthetic coming soon page for your website using particles.js!
 | Text | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #fffff |
 
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
 ## What does it look like?
 
 ![](https://im5.ezgif.com/tmp/ezgif-5-58f53c0d95.gif)
+
+
+## Check it out live!
+
+[Live Demo!](https://servocorp.github.io/Coming-Soon-Page/)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
