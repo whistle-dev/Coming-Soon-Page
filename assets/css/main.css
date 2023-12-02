@@ -36,6 +36,18 @@ body {
     color: #5be546;
   }
 
+  .footer {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-text{
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+  }
+
   /* particles */
   
   canvas {
