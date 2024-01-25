@@ -1,67 +1,66 @@
 body {
-    margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
-  }
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  background-color: #0d1213;
+}
 
-  .container {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    overflow: auto;
-    pointer-events: none;
-  }
+.container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  overflow: auto;
+  pointer-events: none;
+}
 
-  .jumbo {
-    background-color: #151d1eb4;
-    width: 50%;
-    margin: 0 auto;
-    border-radius: 25px;
-    border-color: #5be54660;
-    border-style: solid;
-    border-width: 1px;
-    margin-top: 30vh;
-    pointer-events: all;
-  }
-  .jumbo .jumbo-text {
-    color: #fff;
-    font-size: 140%;
-  }
+.jumbo {
+  background-color: #151d1eb4;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 25px;
+  border-color: #00a2ff;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 30vh;
+  pointer-events: all;
+}
 
-  .corp {
-    color: #5be546;
-  }
+.jumbo .jumbo-text {
+  color: #fff;
+  font-size: 140%;
+}
 
-  .rounded {
-    width: 50%;
-    color: #5be546;
-  }
+.corp {
+  color: #00a2ff;
+}
 
-  .footer {
-    position: absolute;
-    z-index: 2;
-    bottom: 0;
-    width: 100%;
-  }
-  .footer-text{
-    color: #fff;
-    text-align: center;
-    font-size: larger;
-  }
+.rounded {
+  width: 50%;
+  color: #00a2ff;
+}
 
-  /* particles */
-  
-  canvas {
-    display: block;
-  }
+/* particles */
+
+canvas {
+  display: block;
+}
 
 #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #0d1213;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    z-index: 2;
-  }
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0d1213;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 1;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  margin-top: 2vh;
+  width: 10%;
+}
