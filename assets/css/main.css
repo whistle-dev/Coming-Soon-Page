@@ -20,7 +20,9 @@ body {
   border-color: #00a2ff;
   border-style: solid;
   border-width: 1px;
-  margin-top: 30vh;
+  margin-top: 20vh;
+  padding: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 162, 255, 0.75);
   pointer-events: all;
 }
 
@@ -35,7 +37,16 @@ body {
 
 .rounded {
   width: 50%;
+  border: 1px solid #00a2ff;
+}
+
+.contact-link {
   color: #00a2ff;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 /* particles */
@@ -71,6 +82,10 @@ canvas {
     width: 20%;
     /* Slightly larger on tablets */
   }
+
+  .jumbo {
+    width: 70%;
+  }
 }
 
 /* Media query for mobile devices */
@@ -78,5 +93,9 @@ canvas {
   .logo {
     width: 30%;
     /* Much larger on mobile phones */
+  }
+
+  .jumbo {
+    width: 90%;
   }
 }
